@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	background-color: #000000;
+}	
+
+.profile_form{
+	width: 500px;
+	height: auto;
+	text-align: center;
+	margin: 0px auto 0px auto;
+	transform: rotateY(360deg)
+}
+
+.login_form{
+	width: 500px;
+	height: auto;
+	text-align: center;
+	margin: 150px auto 0px auto;
+	vertical-align: middle;
+}
+
+h1{	
+	color: #38CA90;
+	font-family: arial;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	color: #BDBDBD;
+	font-family: arial;
+	text-align: center;
+}
+
+a{	
+	color: #BDBDBD;
+	font-family: arial;
+}
+
+input{
+	opacity: 0.5;
+	border: none;
+	color: #909090;
+	text-align: center;
+	border-radius: 3px;
+
+}
+
+#submit{
+	background-color: #505050;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 3px;
+}
+
+#video_bg{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+
+#divcolo
+{
+    color: white;
+}
