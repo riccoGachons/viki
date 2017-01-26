@@ -1,0 +1,16 @@
+SELECT ProductName,SupplierName
+FROM Products
+JOIN Suppliers 
+ON Suppliers.SupplierID = Products.SupplierID;
+
+SELECT ProductName,CategoryName,SupplierName
+FROM Products
+JOIN Categories 
+ON Categories.CategoryID = Products.CategoryID
+JOIN Suppliers 
+ON Suppliers.SupplierID = Products.SupplierID;
+
+SELECT ProductName,CategoryName
+FROM Products
+JOIN Categories 
+ON Categories.CategoryID = Products.CategoryID;
