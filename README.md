@@ -1,2 +1,3 @@
-# viki
-mirroir connecté
+    Viki: inteligence artificielle
+    
+        mirroir connecté
